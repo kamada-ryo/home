@@ -1,15 +1,3 @@
-
-
-// $("#date").datepicker({
-//   //dateFormat...取得する日付の形式の設定
-//   //dateFormat: 'yy年mm月dd日'
-//   beforeShowDay: function(date){
-//     if(date.getDay() == 0){
-//       return [true,'sunday',''];
-//     }
-//   }
-// });
-
 //土日祝日
 $.get("https://holidays-jp.github.io/api/v1/date.json", function(holidaysData) {
   $("#date").datepicker({
